@@ -21,7 +21,7 @@ a{
 }
 
 a:hover{
-  opacity: 0.7;
+  opacity: 0.3;
 }
 
 span{
@@ -275,3 +275,4 @@ footer{
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-1px, -2px);
 }
+
