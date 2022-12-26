@@ -54,17 +54,17 @@ img{
 
 main{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 10px;
-  padding: 20px 100px;
-  margin: 0 auto; 
+ padding: 30px 100px;
+   
 }
 
 
 
 .pcCard {
-  width: 100%;
-  height: 270px;
+  width: 550px;
+  height: 100px;
   border-radius: 10px;
 
   background-image:linear-gradient(to top left, #0c16a8,#000000,#790e83);
@@ -74,13 +74,13 @@ main{
 .pcLogo{
   background-image: url("/img/Pc-gaming.png");
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 95px;
 }
 
 .nintendoCard {
-  width: 100%;
-  height: 270px;
+  width: 550px;
+  height: 100px;
   border-radius: 10px;
   
   background: #861919;  
@@ -90,13 +90,13 @@ main{
 .nLogo{
   background-image: url("/img/nintendoswitch.png");
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 95px;
 }
 
 .playstationCard {
-  width: 100%;
-  height: 270px;
+  width: 550px;
+  height: 100px;
   border-radius: 10px;
   
   background: #194586;  
@@ -106,24 +106,24 @@ main{
 .psLogo{
   background-image: url("/img/ps5.png");
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 95px;
 }
 
 .xboxCard {
-  width: 100%;
-  height: 270px;
+  width: 550px;
+  height: 100px;
   border-radius: 10px;
   
   background: #198628;  
    
 }
 
-.xLogo{
+.xLogo{  
   background-image: url("/img/xbsx.png");
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 250px;
+  height: 95px;
 }
 
 
@@ -163,17 +163,19 @@ main{
   margin: 5px;
   transition: 0.3s;
 }
-footer{ 
-  height: 50px;  
-  color: #000000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+footer{  
+  padding-left: 100px;
+  
+  
 }
 
-.thanks{
-  color: #747373;
-  opacity: 0.3;
+
+@media(max-width: 1025px){
+  nav{
+    
+    padding: 0px 15px;
+  }
+
 }
 
 @media(max-width: 900px){
@@ -221,26 +223,27 @@ footer{
   }
 
   .pcCard {    
-    width: 100%;
-    height: 150px;
+    width: 100%;    
    
-  }  
+  }
+  
+  
   
   .nintendoCard {
     width: 100%;
-    height: 150px;
+    
     
   }
   
   .playstationCard {
     width: 100%;
-    height: 150px;
+    
     
   }
   
   .xboxCard {
     width: 100%;
-    height: 150px;
+    
        
   }
  
